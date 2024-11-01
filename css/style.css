@@ -1,0 +1,60 @@
+.wpmsems-subscriber-form-body {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    border: 5px solid #a0a5aa;
+    padding: 20px;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    position: relative;
+}
+
+.wpmsems-subscriber-form-field label, .wpmsems-subscriber-form-field input, .wpmsems-subscriber-form-field textarea {
+    display: block;
+    overflow: hidden;
+    width: 98%;
+    text-align: left;
+    max-width: 100%;
+}
+
+.wpmsems-subscriber-form-field {
+    margin: 10px 0;
+}
+
+.wpmsems-subscriber-form-field label {
+    font-size: 13px;
+    background: transparent;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.wpmsems-subscriber-form-field input, .wpmsems-subscriber-form-field textarea {
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+button#sebc_send_email_collector {
+    background: #1e85be;
+    color: #fff;
+    border: 0;
+    font-size: 18px;
+    padding: 10px 20px;
+        cursor: pointer;
+}
+
+.wpmsems-form-part {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+.wpmsems-subscriber-form-field.hidden {
+    display: none;
+}
+
+.wpmsems_message{}
+.wpmsems_process{ color:yellow; }
+.wpmsems_success{ color:green; }
+.wpmsems_error{ color:red; }
+.wpmsems_warning{ color:yellow; }

@@ -1,0 +1,27 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .ppof-settings .collapsible .header {
+    background: #eee;
+    padding: 8px 10px;
+    position: relative;
+}
+.ppof-settings .remove {
+    transition: all 0.4s;
+    position: absolute;
+    right: 10px;
+}
+.ppof-settings .collapsible .header span.title-text {
+    cursor: pointer;
+}
+.item-wrap.collapsible {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    background: #f1f1f1;
+}
+.field-repeatable-wrapper .item-wrap .item {
+    display: inline-block;
+    width: 45%;
+}
